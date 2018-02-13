@@ -23,3 +23,13 @@ const tasks = [task1, task2];
 console.log(task1.title);
 task1.markCompleted();
 task1.logState();
+
+class person {
+  constructor(email, name) {
+    this.email = email;
+    this.name = name;
+  }
+}
+
+personA = new person('jkurian770@gmail.com', 'jerry');
+console.log(personA.name)
